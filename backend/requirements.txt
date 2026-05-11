@@ -1,0 +1,15 @@
+fastapi>=0.111.0
+uvicorn>=0.29.0
+sqlalchemy>=2.0.30
+asyncpg>=0.29.0
+pgvector>=0.2.5
+pydantic>=2.7.1
+pydantic-settings>=2.2.1
+greenlet>=3.0.3
+yfinance
+langchain
+langgraph
+langchain-openai
+langchain-community
+psycopg2-binary
+python-dotenv

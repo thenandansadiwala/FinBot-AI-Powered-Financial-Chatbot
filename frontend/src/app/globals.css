@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* 
+  Custom Next.js Tailwind utilities 
+*/
+
+@layer utilities {
+  .animate-in {
+    animation: animate-in 0.3s ease-in-out;
+  }
+  @keyframes animate-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Table styling for Markdown content */
+  .prose table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 1.5rem 0 !important;
+    border: 1px solid #404040 !important;
+  }
+  .prose th, .prose td {
+    border: 1px solid #404040 !important;
+    padding: 0.75rem !important;
+    text-align: left !important;
+  }
+  .prose th {
+    background-color: #262626 !important;
+    font-weight: 600 !important;
+  }
+  .prose tr:nth-child(even) {
+    background-color: #171717 !important;
+  }
+
+  /* Hide scrollbar utility */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
