@@ -95,6 +95,3 @@ FinBot is a production-grade full-stack financial assistant that uses **LangGrap
 - **Vector Search:** "Which funds are focused on sustainable energy and tech growth?"
 - **Comparison:** "Compare the total assets of SPY and QQQ in a table."
 
----
-
-*Built with ❤️ by Antigravity AI*
